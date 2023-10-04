@@ -1,0 +1,3 @@
+Machine Learning tutorial covers basic and advanced concepts, specially designed to cater to both students and experienced working professionals.
+Machine learning (ML) is a subdomain of artificial intelligence (AI) that focuses on developing systems that learn—or improve performance—based on the data they ingest.
+Machine Learning is the field of study that gives computers the capability to learn without being explicitly programmed.

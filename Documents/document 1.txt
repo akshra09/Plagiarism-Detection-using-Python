@@ -1,0 +1,3 @@
+Machine Learning tutorial covers basic and advanced concepts, specially designed to cater to both students and experienced working professionals.
+This machine learning tutorial helps you gain a solid introduction to the fundamentals of machine learning and explore a wide range of techniques, including supervised, unsupervised, and reinforcement learning.
+Machine learning and AI are frequently discussed together, and the terms are occasionally used interchangeably, although they do not signify the same thing. 
