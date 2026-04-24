@@ -411,7 +411,7 @@ Possible extension:
 import seaborn as sns
 ```
 
-Create document-to-document similarity matrix.
+Create a document-to-document similarity matrix.
 
 ---
 
@@ -439,7 +439,7 @@ wordcloud
 
 # 🏆 Learning Outcomes
 
-This project demonstrates practical use of:
+This project demonstrates the practical use of:
 
 * NLP preprocessing
 * Feature engineering with TF-IDF
@@ -449,20 +449,6 @@ This project demonstrates practical use of:
 
 ---
 
-## ⭐ Resume Project Description
-
-**Plagiarism Detection System using NLP**
-Built a plagiarism detection system using TF-IDF vectorization and cosine similarity to compare multiple text documents and identify suspicious overlap. Implemented pairwise similarity analysis, threshold-based plagiarism flagging, and WordCloud visualizations for exploratory interpretation.
-
----
-
-## 📚 References
-
-* entity["software", "scikit-learn", "Machine learning library"] documentation
-* entity["scientific_concept", "TF-IDF", "Term Frequency–Inverse Document Frequency"]
-* entity["scientific_concept", "Cosine Similarity", "Vector similarity metric"]
-
----
 
 ## 🤝 Contributing
 
@@ -478,10 +464,3 @@ MIT License
 
 ---
 
-## Author
-
-Developed with Python and NLP for academic plagiarism analysis.
-
----
-
-If you want, next I can also help turn this into a **research-style GitHub repo (with badges, architecture diagram, results section, and recruiter-friendly README)**.
