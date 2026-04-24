@@ -98,18 +98,14 @@ $$TF\text{-}IDF = TF \times IDF$$
 ---
 
 ## 2. Cosine Similarity
+Used to measure the logical similarity between two document vectors by calculating the cosine of the angle between them:
 
-Used to measure similarity between two document vectors:
+$$Similarity(A,B) = \frac{A \cdot B}{\|A\| \|B\|}$$
 
-[
-Similarity(A,B)=\frac{A \cdot B}{||A|| ||B||}
-]
-
-Similarity values:
-
-* **1.0** → Identical documents
-* **0.0** → Completely different
-* **0.5+** → Potential plagiarism (based on threshold)
+**Interpretation of Results:**
+* **1.0** → Identical documents (vectors point in the same direction).
+* **0.0** → Completely different (vectors are orthogonal).
+* **0.5+** → Potential plagiarism (depending on your defined threshold).
 
 ---
 
