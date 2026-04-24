@@ -70,38 +70,30 @@ Plagiarism-Detection-Using-Python/
 
 ## 📌 Core Concepts Used
 
+
 ### 1. TF-IDF Vectorization
+TF-IDF converts text into numerical vectors to evaluate word importance.
 
-TF-IDF converts text into numerical vectors.
-
-### Term Frequency (TF)
-
+#### Term Frequency (TF)
 Measures how frequently a word appears in a document:
 
-[
-TF(t,d)=\frac{Number\ of\ times\ term\ t\ appears}{Total\ terms\ in\ document}
-]
+$$TF(t,d) = \frac{\text{Number of times term } t \text{ appears}}{\text{Total terms in document}}$$
 
-### Inverse Document Frequency (IDF)
+#### Inverse Document Frequency (IDF)
+Reduces the weight of common words that appear across many documents:
 
-Reduces weight of common words:
+$$IDF(t) = \log\left(\frac{N}{df(t)}\right)$$
 
-[
-IDF(t)=log\left(\frac{N}{df(t)}\right)
-]
+**Where:**
+* **$N$** = Total number of documents
+* **$df(t)$** = Number of documents containing term $t$
 
-Where:
+---
 
-* **N** = Total number of documents
-* **df(t)** = Number of documents containing term t
+#### TF-IDF Score
+The final weight is calculated by multiplying these two metrics:
 
-### TF-IDF Score
-
-[
-TFIDF = TF \times IDF
-]
-
-This helps emphasize important words while reducing stopword impact.
+$$TF\text{-}IDF = TF \times IDF$$
 
 ---
 
